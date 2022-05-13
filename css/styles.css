@@ -87,6 +87,8 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -133,6 +135,15 @@ img {
 
 .mail.nav-list {
   color: var(--color-text);
+}
+
+.mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.mail.nav-list.tel {
+  display: flex;
 }
 /*#endregion */
 
