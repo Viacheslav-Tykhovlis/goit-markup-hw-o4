@@ -26,10 +26,9 @@
     <header class="header">
       <div class="container">
         <nav class="nav-container">
-          <a class="logo" href="./index.html">
+          <a class="logo logo-up" href="./index.html">
             Web<span class="header-logo">Studio</span></a
           >
-
           <ul class="nav">
             <li><a class="nav-list" href="./index.html">Студия</a></li>
             <li>
@@ -40,13 +39,19 @@
         </nav>
         <ul class="nav-auth">
           <li>
-            <a class="mail nav-list" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="mail nav-list" href="mailto:info@devstudio.com">
+              <svg class="mail-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="mail nav-list" href="tel:380961111111"
-              >+38 096 111 11 11</a
+            <a class="mail nav-list tel" href="tel:380961111111">
+              <svg class="mail-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -200,33 +205,68 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="logo" href="./index.html">
-          Web<span class="footer-logo">Studio</span></a
-        >
-        <address>
-          <ul class="ul-adress">
-            <li>
-              <a
-                class="adress"
-                href="https://goo.gl/maps/PAiW9LLceKNYEAaVA"
-                target="_blank"
-                rel="noreferrer noopener nofollow"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+      <div class="container footer-org">
+        <div class="div-adress">
+          <a class="logo logo-down" href="./index.html">
+            Web<span class="footer-logo">Studio</span></a
+          >
+          <address>
+            <ul class="ul-adress">
+              <li>
+                <a
+                  class="adress"
+                  href="https://goo.gl/maps/PAiW9LLceKNYEAaVA"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a class="transparency adress" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="transparency adress" href="tel:380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="join">присоединяйтесь</p>
+          <ul class="adress-list">
+            <li class="adress-item">
+              <a class="adress-link" href="" aria-label="Icon Instagram">
+                <svg class="adress-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="transparency adress" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="adress-item">
+              <a class="adress-link" href="" aria-label="Icon Twitter">
+                <svg class="adress-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="transparency adress" href="tel:380991111111"
-                >+38 099 111 11 11</a
-              >
+            <li class="adress-item">
+              <a class="adress-link" href="" aria-label="Icon Facebook">
+                <svg class="adress-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="adress-item">
+              <a class="adress-link" href="" aria-label="Icon Linkedin">
+                <svg class="adress-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
